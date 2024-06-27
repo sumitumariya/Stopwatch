@@ -31,7 +31,7 @@ def counter_label(label):
     count()
 
 
-# start function of the stopwatch 
+# start
 def Start(label):
     global running
     running = True
@@ -41,7 +41,7 @@ def Start(label):
     reset['state'] = 'normal'
 
 
-# Stop function of the stopwatch 
+# Stop  
 def Stop():
     global running
     start['state'] = 'normal'
@@ -50,7 +50,7 @@ def Stop():
     running = False
 
 
-# Reset function of the stopwatch 
+# Reset  
 def Reset(label):
     global counter
     counter = 0
